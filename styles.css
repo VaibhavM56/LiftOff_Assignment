@@ -1,0 +1,484 @@
+@font-face {
+    font-family: 'Raleway1', sans-serif;
+    src: url('fonts/Raleway-Bold,Raleway-Regular/Raleway-Regular.otf')format('opentype');
+}
+
+@font-face {
+    font-family: 'Raleway2';
+    src: url('fonts/Raleway/Raleway-VariableFont_wght.ttf')format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('fonts/Raleway/static/Raleway-Bold.ttf')format('truetype');
+}
+
+@font-face {
+    font-family: 'Sofia-Regular';
+    src: url('fonts/MyFonts Order M12208999/MyFonts Order M12208999/Mostardesign - Sofia Pro Regular.otf')format('opentype');
+}
+
+@font-face {
+    font-family: 'Sofia-Bold';
+    src: url('fonts/MyFonts Order M12208999/MyFonts Order M12208999/Mostardesign - Sofia Pro Bold.otf')format('opentype');
+}
+
+@font-face {
+    font-family: 'BrandonGrotesque-Regular';
+    src: url('fonts/MyFonts Order M12208999/MyFonts Order M12208999/HVD Fonts - BrandonGrotesque-Regular.otf')format('opentype');
+}
+
+@font-face {
+    font-family: 'Raleway-ExtraBold';
+    src: url('fonts/Raleway/static/Raleway-ExtraBold.ttf')format('truetype');
+}
+
+@font-face {
+    font-family: 'Palmer-Lake';
+    src: url('fonts/MyFonts Order M12208999/MyFonts Order M12208999/Jen Wagner Co. - Palmer Lake Print Regular.otf')format('opentype');
+}
+
+* {
+    align-items: center;
+}
+
+/* input,textarea, select{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+} */
+
+.input1{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 10rem;
+    height: 2rem;
+}
+
+.input2{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 21rem;
+    height: 2rem;
+}
+
+textarea{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 44rem;
+    height: 8rem;
+}
+
+.headers{
+    font-family: 'BrandonGrotesque-Regular';
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #15364C;
+    text-align: center;
+    padding: 0 3rem 0 3rem;
+}
+
+.paras{
+    font-family: 'Sofia-Regular';
+    color: #2F6079;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.paras2{
+    font-family: 'Sofia-Regular';
+    color: #2F6079;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.button-text{
+    font-family: 'Sofia-Bold';
+    font-weight: 800;
+    font-size: 1.3rem;
+    color: #15364C;
+}
+
+.heading-line{
+    border: 1px solid #9797973B;
+    width: 23%;
+    height: 0px;
+}
+
+ /* ------------------header---------------------------- */
+ .header-container{
+    display: flex;
+    background-color: #1D344A;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-img{
+    padding-right: 8%;
+    width: 13rem;
+    height: 1.5rem;
+}
+.burger{
+    width: 23px;
+  height: 2px;
+  background-color: black;
+  margin: 6px 0;
+}
+.burger-container{
+    
+    padding: 1rem 1rem 2rem 2rem;
+}
+
+
+.header-lesson{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+    font-family: 'BrandonGrotesque-Regular';
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 1rem 2rem 2rem 2rem;
+    align-items: start;
+}
+
+.header-img{
+    width: 12rem;
+    height: 2rem;
+    
+}
+/* --------------------------luggage------------------------------ */
+.luggage{
+    font-family: 'Raleway2';
+    font-weight: 600;
+    background-color: #1D344A;
+}
+
+.luggage-container1{
+    display: flex;
+    padding: auto 10rem auto 30rem;
+    justify-content: center;
+}
+
+.luggage-letter{
+    font-size: 6rem;
+}
+
+.luggage-footer{
+    display: flex;
+    flex-direction: column;
+    padding: auto 10rem auto 30rem;
+}
+
+.luggage-footer-image1{
+    width: 3.3rem;
+    height: 3rem;
+    padding-top: 7rem;
+}
+
+.luggage-footer-image2{
+    width: 12rem;
+    height: 4.5rem;
+    padding-bottom: 1rem;
+}
+
+.color-bar{
+    width: 9rem;
+    height: 0.7rem;
+}
+
+.color-bar-container{
+ display: flex;
+}
+
+/* ----------------------------------franchise---------------------------------------- */
+.franchise-container{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.franchise-img{
+    margin-top: 4rem;
+}
+
+.franchise-container2{
+    margin-top: 3rem;
+}
+
+.franchise-button{
+    background-color: #E8D0CD;
+    width: 30rem;
+    height: 3rem;
+    border-radius: 10px;
+    border-style: hidden;
+    margin-top: 3rem;
+}
+
+.franchise-header{
+    font-family: 'Raleway-ExtraBold';
+    font-weight: 800;
+    font-size: 3.3rem;
+    color: #15364C;
+}
+
+/* ---------------------------------story--------------------------------------------- */
+
+.story-container{
+    background-color: #F9F6F4;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+.story-headerline-container{
+    display: flex;
+    padding-left: 20%;
+}
+
+.story-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.story-img{
+    width: 20rem;
+    height: 17rem;
+    padding-left: 4rem;
+}
+
+.story-footer{
+    font-family: 'Palmer-Lake';
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #2F6079;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+
+/* --------------------------------how it works --------------------------------------*/
+.how-container{
+    margin-top: 3rem;
+    padding: 2rem;
+}
+
+.how-headerline-container{
+    display: flex;
+    padding-left: 20%;
+}
+.how-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.how-div-section{
+    padding: 2rem 2rem 0 2rem;
+    text-align: center;
+}
+.how-img1{
+    width: 7rem;
+    height: 8rem;
+}
+.how-img2{
+    width: 11rem;
+    height: 9rem;
+}
+.how-img3{
+    width: 5rem;
+    height: 8rem;
+}
+.how-header{
+    font-family: 'Raleway-Bold';
+    font-weight: 800;
+    font-size: 1.7rem;
+    color: #13364D;
+}
+
+.how-button{
+    background-color: #E8D0CD;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 10px;
+    border-style: hidden;
+}
+
+
+/* ----------------operate -----------------------------*/
+.operate-container{
+    background-color: #F9F6F4;
+    margin-top: 5rem;
+    padding: 3rem;
+}
+
+.operate-headerline-container{
+    display: flex;
+    padding-left: 12rem;
+}
+
+.operate-para{
+    text-align: center;
+}
+.operate-grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #F9F6F4;
+    padding-left: 20rem;
+}
+
+.operate-grid-container > div {
+    background-color: #F9F6F4;
+    display: flex;
+}
+
+.operate-grid-container > div > img{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0 0.5rem;
+    margin: 0;
+}
+
+/*----------------------------------- design ------------------------------*/
+
+.design-container{
+    margin-top: 5rem;
+}
+.design-headerline-container{
+    display: flex;
+    padding-left: 10%;
+}
+.design-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+/* -------------------------------training ------------------------------*/
+
+.training{
+    background-color: #F9F6F4;
+    margin-top: 5rem;
+    padding: 3rem;
+}
+
+.training-headerline-container{
+    display: flex;
+    padding-left: 10%;
+}
+
+.training-upper{
+    display: flex;
+    justify-content: center;
+}
+
+.training-list{
+    display: flex;
+    justify-content: center;
+}
+
+.training-list li{
+    color: #9FC4D4;
+}
+
+.training-list li span{
+    font-family: 'Sofia-Regular';
+    color: #2F6079;
+    font-weight: 400;
+    font-size: 1rem;
+}
+ /* ---------------------------------sign up------------------------------------------ */
+.sign-up-container{
+    margin-top: 4rem;
+}
+
+.sign-up-headerline-container{
+    display: flex;
+    padding-left: 18%;
+}
+
+.sign-up-form-container{
+    padding-left: 25%;
+    overflow: hidden;
+}
+.sign-up-paras {
+    display: flex;
+    justify-content: center;
+}
+.sign-up-label{
+    font-family: 'Sofia-Regular';
+    color: #2F6079;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.sign-up-form{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.sign-up-form > input{
+    border-style: none;
+    border-radius: 5px;
+}
+
+.sign-up-form-div{
+    padding: 20px;
+}
+.sign-up-button-container{
+    display: flex;
+    justify-content: center;
+}
+.sign-up-button{
+    background-color: #E8D0CD;
+    width: 23rem;
+    height: 2.5rem;
+    border-style: none;
+    border-radius: 10px;
+}
+
+/* ---------------------footer ----------------------*/
+
+.footer{
+    background-color: #15364C;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+    padding: 1.5rem;
+}
+
+.footer-img{
+    display: flex;
+    padding-top: 0.5rem;
+}
+
+.footer-img > img{
+    width: 1.3rem;
+    height: 1.3rem;
+    padding: 2.5rem 0.6rem 0;
+}
+
+.footer-list{
+    display: flex;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer li{
+    font-family: 'BrandonGrotesque-Regular';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #FFFFFF;
+    padding: 0.5rem;
+}
